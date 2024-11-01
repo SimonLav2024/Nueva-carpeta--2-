@@ -6,14 +6,19 @@ body{
   gap: 1rem;
 }
 #qrcode {
-    width:160px;
-    height:160px;
+    width: 30%;
   }
+img {
+  width: 100%;
+}
 .ajuste {
   width: 40%;
 }
 @media (max-width: 650px) {
   .ajuste {
     width: 90%;
+  }
+  #qrcode {
+    width: 60%;
   }
 }

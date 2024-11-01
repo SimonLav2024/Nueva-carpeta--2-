@@ -2,6 +2,7 @@
 var qrcode = new QRCode("qrcode");
 const botonQR = document.getElementById("botonQR");
 
+
 botonQR.addEventListener("click", () => {
     function makeCode () {    
         var elText = document.getElementById("text");
@@ -27,4 +28,7 @@ botonQR.addEventListener("click", () => {
           }
         });
 });
+
+
+
 
